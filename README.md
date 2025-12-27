@@ -543,5 +543,5 @@ We write in JSX:
 </button>;
 ```
 
-# Responsive Design
-<img width="427" height="12188" alt="screencapture-localhost-5173-2025-12-27-20_39_18" src="https://github.com/user-attachments/assets/8278af81-6930-469e-90f9-0cff8088ae04" />
+# Responsive Design - Mobile
+<img width="100" height="12188" alt="screencapture-localhost-5173-2025-12-27-20_39_18" src="https://github.com/user-attachments/assets/8278af81-6930-469e-90f9-0cff8088ae04" />
