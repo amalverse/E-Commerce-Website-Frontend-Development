@@ -1,6 +1,9 @@
 # 🛒 E-Commerce Website - Frontend
 
+# Live - https://e-commerce-website-frontend-develop.vercel.app/
+
 A modern, beginner-friendly e-commerce shopping platform built with React. This project demonstrates core web development concepts including component-based architecture, state management, routing, and responsive design.
+<img width="1920" height="5440" alt="screencapture-localhost-5173-2025-12-27-20_27_16" src="https://github.com/user-attachments/assets/cfccf961-d4fa-4076-8317-e19ac9a882b1" />
 
 ## 📋 Table of Contents
 
@@ -285,6 +288,7 @@ npm run lint
 - View all products on the shop page
 - Filter by category, price, ratings
 - Search functionality to find specific products
+<img width="1920" height="3782" alt="screencapture-localhost-5173-shop-2025-12-27-20_27_58" src="https://github.com/user-attachments/assets/755746f9-cb13-420e-a96c-de31df998120" />
 
 ### 2. **Shopping Cart**
 
@@ -292,18 +296,22 @@ npm run lint
 - Update quantities
 - View total price
 - Redux manages cart state
+<img width="1920" height="1490" alt="screencapture-localhost-5173-cart-2025-12-27-20_32_07" src="https://github.com/user-attachments/assets/6a05a36d-5761-49fb-9d67-bd02638b9a13" />
+
 
 ### 3. **Wishlist**
 
 - Save favorite products
 - Add wishlist items to cart
 - Persistent across navigation
+<img width="1920" height="1580" alt="screencapture-localhost-5173-wishlist-2025-12-27-20_31_56" src="https://github.com/user-attachments/assets/6066d8df-a12d-4ff6-a072-8014a0393ad4" />
 
 ### 4. **Product Details**
 
 - View detailed information about products
 - See product specifications and reviews
 - View related products
+<img width="1920" height="2408" alt="screencapture-e-commerce-website-frontend-develop-vercel-app-shop-2-2025-12-27-20_50_34" src="https://github.com/user-attachments/assets/1b24015b-5d69-42ce-b236-b894dc708524" />
 
 ### 5. **User Authentication**
 
@@ -623,48 +631,9 @@ npm run dev -- --port 3000
 
 ---
 
-## 📖 Resources for Learning
-
-### Understand Concepts
-
-- **React**: [Official React Docs](https://react.dev)
-- **Redux**: [Redux Tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-and-concepts)
-- **React Router**: [Router Docs](https://reactrouter.com/)
-- **Tailwind CSS**: [Tailwind Docs](https://tailwindcss.com/docs)
-
-### Practice
-
-- Change component styles
-- Add new pages
-- Create new Redux slices
-- Modify existing features
-
----
-
-## 🎓 What You'll Learn
-
-By studying this project, you'll understand:
-
-✅ **Component-Based Architecture** - How modern apps are structured
-✅ **React Hooks** - useSelector, useDispatch for state management
-✅ **Redux** - Global state management patterns
-✅ **Routing** - Single Page Application navigation
-✅ **Responsive Design** - Making apps work on all devices
-✅ **Real-World Project Structure** - How professional projects are organized
-✅ **Best Practices** - Clean code, reusable components, separation of concerns
-
----
-
-## 📞 Questions? Next Steps?
-
-1. **Understand the folder structure** - Read this README's project structure section
-2. **Run the project** - `npm run dev`
-3. **Explore components** - Open files and read the code
-4. **Modify something** - Change a color, add text, break something and fix it
-5. **Learn by doing** - The best way to learn is by experimenting!
-
----
-
 **Happy Coding! 🎉**
 
 Remember: Every expert was once a beginner. Don't worry if you don't understand everything at first. Keep exploring, experimenting, and asking questions!
+
+# Responsive Design
+<img width="480" height="4284" alt="screencapture-localhost-5173-2025-12-27-20_38_39" src="https://github.com/user-attachments/assets/4cd48768-e180-40c9-a9ae-4a39f0347658" />
