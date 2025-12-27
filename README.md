@@ -544,5 +544,4 @@ We write in JSX:
 ```
 
 # Responsive Design
-<img width="1920" height="2408" alt="screencapture-e-commerce-website-frontend-develop-vercel-app-shop-2-2025-12-27-20_50_34" src="https://github.com/user-attachments/assets/1e297105-f6d0-4755-a434-06c2ba7c7ba7" />
-
+<img width="427" height="12188" alt="screencapture-localhost-5173-2025-12-27-20_39_18" src="https://github.com/user-attachments/assets/8278af81-6930-469e-90f9-0cff8088ae04" />
