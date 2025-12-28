@@ -42,9 +42,11 @@ const ShopFiltering = ({
               name="ratingRange"
               id="ratingRange"
               checked={
-                filtersState.priceRange &&
-                filtersState.priceRange.min === range.min &&
-                filtersState.priceRange.max === range.max
+                filtersState.priceRange === "all"
+                  ? range.label === "All"
+                  : filtersState.priceRange &&
+                    filtersState.priceRange.min === range.min &&
+                    filtersState.priceRange.max === range.max
               }
               onChange={() =>
                 setFiltersState({ ...filtersState, priceRange: range })
@@ -66,9 +68,11 @@ const ShopFiltering = ({
               name="priceRange"
               id="priceRange"
               checked={
-                filtersState.ratingRange &&
-                filtersState.ratingRange.min === range.min &&
-                filtersState.ratingRange.max === range.max
+                filtersState.ratingRange === "all"
+                  ? range.label === "All"
+                  : filtersState.ratingRange &&
+                    filtersState.ratingRange.min === range.min &&
+                    filtersState.ratingRange.max === range.max
               }
               onChange={() =>
                 setFiltersState({ ...filtersState, ratingRange: range })

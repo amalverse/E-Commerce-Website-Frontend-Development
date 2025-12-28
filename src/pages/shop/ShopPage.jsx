@@ -35,8 +35,8 @@ const ShopPage = () => {
   // state to manage filters
   const [filtersState, setFiltersState] = useState({
     category: "all",
-    priceRange: null,
-    ratingRange: null,
+    priceRange: "all",
+    ratingRange: "all",
   });
 
   // fetch products from the store
@@ -56,7 +56,7 @@ const ShopPage = () => {
     }
 
     // Filter By Price Range
-    if (filtersState.priceRange) {
+    if (filtersState.priceRange && filtersState.priceRange !== "all") {
       const { min, max } = filtersState.priceRange;
       result = result.filter(
         (product) => product.price >= min && product.price <= max
@@ -64,7 +64,7 @@ const ShopPage = () => {
     }
 
     // Filter By Ratings
-    if (filtersState.ratingRange) {
+    if (filtersState.ratingRange && filtersState.ratingRange !== "all") {
       const { min, max } = filtersState.ratingRange;
       result = result.filter(
         (product) => product.rating.rate >= min && product.rating.rate <= max
@@ -83,8 +83,8 @@ const ShopPage = () => {
   const clearFilters = () => {
     setFiltersState({
       category: "all",
-      priceRange: null,
-      rating: null,
+      priceRange: "all",
+      ratingRange: "all",
     });
   };
 
