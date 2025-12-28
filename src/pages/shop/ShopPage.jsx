@@ -13,12 +13,14 @@ const filters = {
     "jewelery",
   ],
   priceRange: [
+    { label: "All", min: 0, max: Infinity },
     { label: "under $50", min: 0, max: 50 },
     { label: "$50 -$100", min: 50, max: 100 },
     { label: "$100- $200", min: 100, max: 200 },
     { label: "$200 and above", min: 200, max: Infinity },
   ],
   ratingRange: [
+    { label: "All", min: 0, max: Infinity },
     { label: "under 2", min: 0, max: 2 },
     { label: "2 -3", min: 2, max: 3 },
     { label: "3- 4", min: 3, max: 4 },
