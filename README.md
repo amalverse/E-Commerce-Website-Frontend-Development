@@ -1,6 +1,9 @@
 # 🛒 E-Commerce Website - Frontend
 
+# Live - https://e-commerce-website-frontend-develop.vercel.app/
+
 A modern, beginner-friendly e-commerce shopping platform built with React. This project demonstrates core web development concepts including component-based architecture, state management, routing, and responsive design.
+<img width="1920" height="5440" alt="screencapture-localhost-5173-2025-12-27-20_27_16" src="https://github.com/user-attachments/assets/cfccf961-d4fa-4076-8317-e19ac9a882b1" />
 
 ## 📋 Table of Contents
 
@@ -195,6 +198,7 @@ User sees updated cart immediately
 - View all products on the shop page
 - Filter by category, price, ratings
 - Search functionality to find specific products
+  <img width="1920" height="3782" alt="screencapture-localhost-5173-shop-2025-12-27-20_27_58" src="https://github.com/user-attachments/assets/755746f9-cb13-420e-a96c-de31df998120" />
 
 ### 2. **Shopping Cart**
 
@@ -202,18 +206,21 @@ User sees updated cart immediately
 - Update quantities
 - View total price
 - Redux manages cart state
+  <img width="1920" height="1490" alt="screencapture-localhost-5173-cart-2025-12-27-20_32_07" src="https://github.com/user-attachments/assets/6a05a36d-5761-49fb-9d67-bd02638b9a13" />
 
 ### 3. **Wishlist**
 
 - Save favorite products
 - Add wishlist items to cart
 - Persistent across navigation
+  <img width="1920" height="1580" alt="screencapture-localhost-5173-wishlist-2025-12-27-20_31_56" src="https://github.com/user-attachments/assets/6066d8df-a12d-4ff6-a072-8014a0393ad4" />
 
 ### 4. **Product Details**
 
 - View detailed information about products
 - See product specifications and reviews
 - View related products
+  <img width="1920" height="2408" alt="screencapture-e-commerce-website-frontend-develop-vercel-app-shop-2-2025-12-27-20_50_34" src="https://github.com/user-attachments/assets/1b24015b-5d69-42ce-b236-b894dc708524" />
 
 ### 5. **User Authentication**
 
