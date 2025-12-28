@@ -386,6 +386,7 @@ const MyComponent = () => {
 
 ### Our Routes
 
+```
 / ........................... Home page
 /shop ........................ All products
 /shop/:id .................... Single product details
@@ -396,6 +397,7 @@ const MyComponent = () => {
 /contact ..................... Contact page
 /login ....................... Login page
 /register .................... Register page
+```
 
 ```
 
