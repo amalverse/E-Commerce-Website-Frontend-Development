@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -92,7 +94,9 @@ const Footer = () => {
 
         {/* My Account */}
         <div className="flex flex-col gap-2 font-medium text-slate-600">
-          <h4 className="mb-2 text-md font-semibold text-slate-900">MY ACCOUNT</h4>
+          <h4 className="mb-2 text-md font-semibold text-slate-900">
+            MY ACCOUNT
+          </h4>
           <ul className="space-y-3">
             {[
               { label: "Sign In", link: "/login" },
@@ -102,12 +106,11 @@ const Footer = () => {
               { label: "Help", link: "#" },
             ].map(({ label, link }) => (
               <li key={label}>
-                <a
-                  href={link}
-                  className="transition-all duration-300 hover:text-slate-900 hover:translate-x-1 inline-block"
-                >
-                  {label}
-                </a>
+                <Link to={link}>
+                  <span className="transition-all duration-300 hover:text-slate-900 hover:translate-x-1 inline-block">
+                    {label}
+                  </span>
+                </Link>
               </li>
             ))}
           </ul>
