@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./navbar/Navbar";
+import Footer from "./Footer";
 
 const Login = () => {
   const [message, setMessage] = useState("");
@@ -143,7 +144,7 @@ const Login = () => {
             </button>
           </form>
 
-          {/* Footer */}
+          {/* Signup Link */}
           <p className="mt-6 text-xs text-gray-500 text-center">
             Don&apos;t have an account?
             <Link
@@ -156,6 +157,7 @@ const Login = () => {
           </p>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
