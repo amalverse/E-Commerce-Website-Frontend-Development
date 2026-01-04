@@ -15,7 +15,7 @@ const NavbarBottom = () => {
   ];
 
   return (
-    <nav className="sticky top-28 lg:top-16 z-50 bg-rose-500 text-white shadow-xl">
+    <nav className="sticky top-28 lg:top-17 z-50 bg-rose-500 text-white shadow-xl">
       <div className="mx-auto flex max-w-11/12 items-center justify-between py-2">
         {/* Mobile / Tablet Menu Button */}
         <button
