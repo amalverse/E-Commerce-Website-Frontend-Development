@@ -1,11 +1,11 @@
-# 🛒 E-Commerce Website - Frontend 
-
 # AlmaBetter Capstone Project: Front-end Development (Module 2)
 ---
 - **Name**- Amal Kishor
 - **Chohort**- SE2508A
 - **Project Name**- E-Commerce Website - Frontend Development
 ---
+
+# 🛒 E-Commerce Website - Frontend Development
 
 # Live - https://e-commerce-website-frontend-develop.vercel.app/
 
